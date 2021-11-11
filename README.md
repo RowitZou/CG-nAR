@@ -122,11 +122,15 @@ PYTHONPATH=. python ./src/main.py -mode test -data_path torch_data/weibo/weibo -
 
 ## Citation
 
-    @misc{zou2021thinking,
-          title={Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems}, 
-          author={Yicheng Zou and Zhihua Liu and Xingwu Hu and Qi Zhang},
-          year={2021},
-          eprint={2109.04084},
-          archivePrefix={arXiv},
-          primaryClass={cs.CL}
-         }   
+    @inproceedings{
+        zou-etal-2021-thinking,
+        title = "Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems",
+        author = "Zou, Yicheng  and Liu, Zhihua  and Hu, Xingwu  and Zhang, Qi",
+        booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+        month = nov,
+        year = "2021",
+        address = "Online and Punta Cana, Dominican Republic",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2021.emnlp-main.169",
+        pages = "2215--2226"
+    }
